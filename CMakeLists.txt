@@ -10,3 +10,4 @@ src/*.cpp #forme des fichier a rechercher
 add_executable( #creation de l executable binaire
 main_exe #nom du binaire
 ${source_files} #liste des fichiers a compile pour le linking
+)

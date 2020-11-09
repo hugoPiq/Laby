@@ -1,0 +1,62 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hugo/Documents/ENSTA 2 ANNE/C++/TP5/Laby/src/Cell.cpp
+Cell.h
+/home/hugo/Documents/ENSTA 2 ANNE/C++/TP5/Laby/src/Cell.h
+
+/home/hugo/Documents/ENSTA 2 ANNE/C++/TP5/Laby/src/Cell.h
+cstdlib
+-
+fstream
+-
+
+/home/hugo/Documents/ENSTA 2 ANNE/C++/TP5/Laby/src/Path.cpp
+Path.h
+/home/hugo/Documents/ENSTA 2 ANNE/C++/TP5/Laby/src/Path.h
+
+/home/hugo/Documents/ENSTA 2 ANNE/C++/TP5/Laby/src/Path.h
+Cell.h
+/home/hugo/Documents/ENSTA 2 ANNE/C++/TP5/Laby/src/Cell.h
+
+/home/hugo/Documents/ENSTA 2 ANNE/C++/TP5/Laby/src/main.cpp
+cstdlib
+-
+iostream
+-
+vibes.h
+/home/hugo/Documents/ENSTA 2 ANNE/C++/TP5/Laby/src/vibes.h
+Path.h
+/home/hugo/Documents/ENSTA 2 ANNE/C++/TP5/Laby/src/Path.h
+Cell.h
+/home/hugo/Documents/ENSTA 2 ANNE/C++/TP5/Laby/src/Cell.h
+
+/home/hugo/Documents/ENSTA 2 ANNE/C++/TP5/Laby/src/vibes.cpp
+vibes.h
+/home/hugo/Documents/ENSTA 2 ANNE/C++/TP5/Laby/src/vibes.h
+sstream
+-
+cstdlib
+-
+cstdio
+-
+cassert
+-
+
+/home/hugo/Documents/ENSTA 2 ANNE/C++/TP5/Laby/src/vibes.h
+vector
+-
+string
+-
+map
+-
+sstream
+-
+iostream
+-
+
