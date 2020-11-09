@@ -13,6 +13,10 @@ CMakeFiles/main_exe.dir/src/main.cpp.o: ../src/Path.h
 CMakeFiles/main_exe.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/main_exe.dir/src/main.cpp.o: ../src/vibes.h
 
+CMakeFiles/main_exe.dir/src/test_values.cpp.o: ../src/Cell.h
+CMakeFiles/main_exe.dir/src/test_values.cpp.o: ../src/catch.hpp
+CMakeFiles/main_exe.dir/src/test_values.cpp.o: ../src/test_values.cpp
+
 CMakeFiles/main_exe.dir/src/vibes.cpp.o: ../src/vibes.cpp
 CMakeFiles/main_exe.dir/src/vibes.cpp.o: ../src/vibes.h
 

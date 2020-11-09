@@ -204,6 +204,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/main_exe.dir/build.make CMakeFiles/main_exe.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/test_values.o: src/test_values.cpp.o
+
+.PHONY : src/test_values.o
+
+# target to build an object file
+src/test_values.cpp.o:
+	$(MAKE) -f CMakeFiles/main_exe.dir/build.make CMakeFiles/main_exe.dir/src/test_values.cpp.o
+.PHONY : src/test_values.cpp.o
+
+src/test_values.i: src/test_values.cpp.i
+
+.PHONY : src/test_values.i
+
+# target to preprocess a source file
+src/test_values.cpp.i:
+	$(MAKE) -f CMakeFiles/main_exe.dir/build.make CMakeFiles/main_exe.dir/src/test_values.cpp.i
+.PHONY : src/test_values.cpp.i
+
+src/test_values.s: src/test_values.cpp.s
+
+.PHONY : src/test_values.s
+
+# target to generate assembly for a file
+src/test_values.cpp.s:
+	$(MAKE) -f CMakeFiles/main_exe.dir/build.make CMakeFiles/main_exe.dir/src/test_values.cpp.s
+.PHONY : src/test_values.cpp.s
+
 src/vibes.o: src/vibes.cpp.o
 
 .PHONY : src/vibes.o
@@ -249,6 +276,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/test_values.o"
+	@echo "... src/test_values.i"
+	@echo "... src/test_values.s"
 	@echo "... src/vibes.o"
 	@echo "... src/vibes.i"
 	@echo "... src/vibes.s"
