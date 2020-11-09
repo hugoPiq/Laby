@@ -5,8 +5,18 @@
 #include <fstream>
 using namespace std;
 
+
+/**
+*\ class Cell
+*\ brief Cell with coordonate (x,y)
+*/
 class Cell
 {
+  /**
+  *\ brief Creates a cell
+  *\ param x  x coordinate
+  *\ param y  y coordinate 
+  */
   public:
     Cell(int x, int y);
     ~Cell();
